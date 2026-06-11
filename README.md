@@ -9,7 +9,7 @@ Monta a estrutura completa de um projeto (runtime, banco de dados, arquitetura) 
 ## Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/python_lab
+git clone https://github.com/rufatto-dotcom/runtime-tool
 cd python_lab
 pip install -r requirements.txt
 ```
