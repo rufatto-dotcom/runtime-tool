@@ -6,7 +6,7 @@ from interactive import run_interactive
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="python_lab",
+        prog="runtime-tool",
         description="Gerador de projetos com templates e configurações prontas.",
     )
     subparsers = parser.add_subparsers(dest="command")
