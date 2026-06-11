@@ -26,7 +26,7 @@ def build_parser() -> argparse.ArgumentParser:
     new_parser.add_argument(
         "--architecture",
         default=None,
-        choices=["orm", "webserver"],
+        choices=["orm"],
         help="Arquitetura base (opcional)",
     )
     new_parser.add_argument(
