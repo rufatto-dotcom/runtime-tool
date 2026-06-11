@@ -55,7 +55,7 @@ python main.py new --runtime php --name minha-api --architecture orm --database 
 ## Estrutura
 
 ```
-python_lab/
+runtime-tool/
 ├── main.py              # Entrypoint (CLI + interativo)
 ├── core.py              # Lógica principal
 ├── interactive.py       # Menu interativo (questionary)
