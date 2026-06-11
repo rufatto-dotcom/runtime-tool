@@ -54,7 +54,7 @@ python main.py new --runtime php --name minha-api --architecture orm --database 
 |---|---|---|
 | `--runtime` | ✅ | `python`, `php`, `java` |
 | `--name` | ✅ | Nome da pasta do projeto |
-| `--architecture` | ❌ | `orm`, `webserver` |
+| `--architecture` | ❌ | `orm` |
 | `--database` | ❌ | `MySQL`, `PostgreSQL` (pode passar mais de um) |
 
 ---
@@ -71,8 +71,7 @@ runtime-tool/
 │   ├── php/
 │   └── java/
 └── architectures/       # Camadas arquiteturais opcionais
-    ├── orm/
-    └── webserver/
+    └── orm/
 ```
 
 ### Como os templates funcionam
@@ -116,7 +115,7 @@ Elas são substituídas automaticamente ao criar o projeto.
 
 - [ ] Benchmarks entre runtimes
 - [ ] Suporte a MongoDB, Redis
-- [ ] `python_lab list` — listar projetos criados
+- [ ] `runtime-tool list` — listar projetos criados
 - [ ] Geração de `project.json` por projeto
 - [ ] Mais arquiteturas (Clean Architecture, MVC)
 
