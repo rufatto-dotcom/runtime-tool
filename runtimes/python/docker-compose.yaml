@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    container_name: {{PROJECT_NAME}}
+    volumes:
+      - ./src:/app/src
+
+{{COMPOSE_SERVICES}}
