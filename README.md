@@ -1,4 +1,4 @@
-# 🧪 python_lab
+# 🧪 runtime-tool
 
 Gerador de scaffolding de projetos. Sofre uma vez, usa pra sempre.
 
