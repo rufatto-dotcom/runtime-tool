@@ -8,6 +8,7 @@ Monta a estrutura completa de um projeto (runtime, banco de dados, arquitetura) 
 
 ## Pré-requisitos
 
+- Python 3.10+
 - [Docker](https://docs.docker.com/get-docker/) + [Docker Compose](https://docs.docker.com/compose/install/)
 
 ---
