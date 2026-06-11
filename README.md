@@ -2,7 +2,13 @@
 
 Gerador de scaffolding de projetos. Sofre uma vez, usa pra sempre.
 
-Monta a estrutura completa de um projeto (runtime, banco de dados, arquitetura) em segundos. Quanto mais alimentado com templates, mais versátil fica.
+Monta a estrutura completa de um projeto (runtime, banco de dados, arquitetura) com Docker pronto pra subir em segundos. Quanto mais alimentado com templates, mais versátil fica.
+
+---
+
+## Pré-requisitos
+
+- [Docker](https://docs.docker.com/get-docker/) + [Docker Compose](https://docs.docker.com/compose/install/)
 
 ---
 
